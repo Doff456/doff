@@ -50,6 +50,7 @@ sleep 0.5
 echo "$branco -1-Open the Menu($cyan ferramentas)\n\n";
 echo "$purple -2 Open the Menu($cyanClaro Estudo)\n\n";
 echo "$vermelho -3 Information of Device\n\n";
+echo "azul -4 Encoder MD5\n\n";
 read -p ">" menu
 
 if [ "$menu" = "3" ]
@@ -60,8 +61,16 @@ if [ "$menu" = "3" ]
                 sleep 5.5
                 sh doff.sh
 
+elif [ "$menu" = "4" ]
+      then 
+            clear
+	    apt-get install python
+	    pip install --upgrade
+	    pip install tqdm
+	    python encoder.py
+
 elif [ "$menu" = "1" ]
-	then
+        then
 		clear
 		sleep 0.5
 
@@ -218,7 +227,8 @@ read pqp
 
 		    sleep 3.0
 			sh doff.sh
-      
+
+      
 
 
 	#ddos
