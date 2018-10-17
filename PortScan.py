@@ -3,7 +3,7 @@ import sys
 import time
 import hashlib
 import os
-from tqdm import tqdm
+
 from time import sleep
 import socket
 fun    ='\033[1;102m'
