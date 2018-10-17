@@ -52,6 +52,7 @@ print ('''
 #  Code         :  Python3
 #  Coded by     :  Døff
 #  Github       :  https://github.com/Doff456
+#  Version      :  1.0
 #  Type         :  Port Scan And Most Informations
 '''.format(RED,WHITE))
 
